@@ -1,0 +1,10 @@
+regex
+tweepy
+pandas
+nltk
+preprocessor
+flask
+numpy
+scikit-learn
+scipy
+matplotlib
