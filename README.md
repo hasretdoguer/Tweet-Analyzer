@@ -35,5 +35,5 @@ TF-IDF is a statistical measure that evaluates how relevant a word is to a docum
 ### 3. Multi-Label Classification
 I trained my model three different multi-label classification model algorithms that are logistic regression, multinomial naïve bayes, and linear support vector. Linear support vector has the best accuracy, but I did not use somehow on AWS EC2 server. So, I decided to use multinomial naïve bayes for prediction
  
-######This is the opening screen of the website. Here, users should type an English based account name. Then they should click the submit button for analysis.
-![This is the opening screen of the website. Here, users should type an English based account name. Then they should click the submit button for analysis.](https://github.com/hasretdoguer/Tweet-Analyzer/tree/main/Tweet%20Analyzer/templates/index.png?raw=true)
+####This is the opening screen of the website. Here, users should type an English based account name. Then they should click the submit button for analysis.
+![](https://github.com/hasretdoguer/Tweet-Analyzer/blob/main/Tweet%20Analyzer/templates/index.png)
