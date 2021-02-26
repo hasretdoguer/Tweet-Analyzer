@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>ANALYSIS</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/fontawesome-all.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/font-awesome.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/fontawesome5-overrides.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Features-Boxed.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Login-Form-Dark.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body class="login-dark">
+    <div class="features-boxed">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Analysis: {{ userName }} </h2>
+                <p class="text-center">The calculation below is made over the first 200 tweets</p>
+            </div>
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fas fa-paint-brush icon"></i>
+                        <h3 class="name">ART</h3>
+                        <h1 class="description">{{art}}%</h1>
+                    </div>
+                    <div class="box"><i class="fas fa-music icon"></i>
+                        <h3 class="name">MUSIC</h3>
+                        <p class="description">{{music}}%</p>
+                    </div>
+                    <div class="box" style="width: 200;"><i class="fas fa-basketball-ball icon"></i>
+                        <h3 class="name">SPORT</h3>
+                        <p class="description">{{sport}}%</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fas fa-gamepad icon"></i>
+                        <h3 class="name">GAME</h3>
+                        <p class="description">{{game}}%</p>
+                    </div>
+                    <div class="box"><i class="fas fa-handshake icon"></i>
+                        <h3 class="name">POLITIC</h3>
+                        <p class="description">{{politic}}%</p>
+                    </div>
+                    <div class="box" style="width: 200;"><i class="fas fa-laptop-code icon"></i>
+                        <h3 class="name">TECHNOLOGY</h3>
+                        <p class="description">{{technology}}%</p>
+                    </div>
+                    <div class="box" style="width: 200;"><i class="fa fa-television icon"></i>
+                        <h3 class="name">TV</h3>
+                        <p class="description">{{tv}}%</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-movie icon">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                            <line x1="8" y1="4" x2="8" y2="20"></line>
+                            <line x1="16" y1="4" x2="16" y2="20"></line>
+                            <line x1="4" y1="8" x2="8" y2="8"></line>
+                            <line x1="4" y1="16" x2="8" y2="16"></line>
+                            <line x1="4" y1="12" x2="20" y2="12"></line>
+                            <line x1="16" y1="8" x2="20" y2="8"></line>
+                            <line x1="16" y1="16" x2="20" y2="16"></line>
+                        </svg>
+                        <h3 class="name">MOVIE</h3>
+                        <p class="description">{{movie}}%</p>
+                    </div>
+                    <div class="box"><i class="fas fa-atom icon"></i>
+                        <h3 class="name">SCIENCE</h3>
+                        <p class="description">{{science}}%</p>
+                    </div>
+                    <div class="box" style="width: 200;"><i class="fas fa-plane-departure icon"></i>
+                        <h3 class="name">TRAVEL</h3>
+                        <p class="description">{{travel}}%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
