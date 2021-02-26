@@ -71,11 +71,11 @@ def home():
 @app.route('/',  methods=['POST'])
 def username():
     user_name = request.form["username"]
-
-    consumer_key = "qzWcxVXwd10Wqg9BfpAjAXEom"
-    consumer_secret = "kc4INOKZgZ6E7ojWWnbtqFFVx6V7InWqX1Lxgb6KY4zTVdciCw"
-    access_token = "323830961-Ejorvc54i7bx0nXtFsqrcvJ5oa4Nou3mDaE3TwI4"
-    access_token_secret = "SmvbwW6r3uxDDZ5nvNe8K63bXBfpIbRVDcbngXeCwi8zc"
+    #use your own keys
+    consumer_key = "******************"
+    consumer_secret = "***********************"
+    access_token = "****************************"
+    access_token_secret = "*****************************"
 
     auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
